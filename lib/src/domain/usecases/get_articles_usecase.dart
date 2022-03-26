@@ -6,7 +6,7 @@ import 'package:flutter_clean_architecture_test/src/domain/repositories/articles
 
 class GetArticlesUseCase
     implements UseCase<DataState<List<Article>>, ArticleRequestParams> {
-  final ArticleRepository _articleRepository;
+  final ArticlesRepository _articleRepository;
 
   GetArticlesUseCase(this._articleRepository);
 
